@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.infinityandriod.darzi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".User.ViewOrders" />
+        <activity android:name=".User.ViewExpense" />
+        <activity android:name=".User.ViewIncome" />
+        <activity android:name=".User.ViewStaff" />
+        <activity android:name=".User.ViewCustomer" />
+        <activity android:name=".User.Profile" />
+        <activity android:name=".User.Suits" />
+        <activity android:name=".User.Pathani" />
+        <activity android:name=".User.AddOrder" />
+        <activity android:name=".User.AddExpenseCategory" />
+        <activity android:name=".User.AddExpense" />
+        <activity android:name=".User.AddIncomeCategory" />
+        <activity android:name=".User.AddIncome" />
+        <activity android:name=".User.AddDesignation" />
+        <activity android:name=".User.PaySalary" />
+        <activity android:name=".User.AddStaff" />
+        <activity android:name=".User.Catalogue" />
+        <activity android:name=".User.Calender" />
+        <activity android:name=".User.Women" />
+        <activity android:name=".User.Mens" />
+        <activity android:name=".User.AddCustomer" />
+        <activity android:name=".Common.LoginSignup.SignUp3rdClass" />
+        <activity android:name=".Common.LoginSignup.ForgetPasswordSuccessMessage" />
+        <activity android:name=".Common.LoginSignup.SetNewPassword" />
+        <activity android:name=".Common.LoginSignup.MakeSelection" />
+        <activity android:name=".Common.LoginSignup.ForgetPassword" />
+        <activity android:name=".Common.LoginSignup.VerifyOTP" />
+        <activity android:name=".Common.LoginSignup.SignUp2ndClass" />
+        <activity android:name=".Common.LoginSignup.SignUp" />
+        <activity android:name=".Common.LoginSignup.Login" />
+        <activity android:name=".Common.LoginSignup.StartUpScreen" />
+        <activity android:name=".User.StaffManagement" />
+        <activity android:name=".User.ExpenseManagement" />
+        <activity android:name=".User.IncomeManagement" />
+        <activity android:name=".Common.OnBoarding" />
+        <activity android:name=".User.UserDashboard" />
+        <activity android:name=".Common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

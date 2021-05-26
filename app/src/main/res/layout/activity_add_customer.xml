@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightWhite"
+    tools:context=".User.AddCustomer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15sp"
+                android:src="@drawable/general_back_icon" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="15sp"
+                android:src="@drawable/general_search_icon" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/brandongrotesqueblack"
+            android:padding="30sp"
+            android:text="@string/add_customer"
+            android:textAllCaps="true"
+            android:textSize="30sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            app:cardBackgroundColor="#00000000"
+            app:cardElevation="4sp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:layout_margin="20sp"
+                android:background="#145460">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25sp"
+                    android:text="@string/mens"
+                    android:textColor="@color/white"
+                    android:textSize="35sp" />
+
+                <Button
+                    android:id="@+id/expand_all_mens"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:onClick="callMensScreen"
+                    android:padding="20sp"
+                    android:text="@string/expand_all"
+                    android:textColor="@color/white"
+                    android:transitionName="transition_mens"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-2sp"
+                android:src="@drawable/mens_image" />
+        </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            app:cardBackgroundColor="#00000000"
+            app:cardElevation="4sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="190sp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="20dp"
+                    android:background="#d15252">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baloo"
+                        android:padding="25dp"
+                        android:text="@string/womens"
+                        android:textColor="@color/white"
+                        android:textSize="35sp" />
+
+                    <Button
+                        android:id="@+id/expand_all_womens"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="#00000000"
+                        android:padding="20dp"
+                        android:onClick="callWomenScreen"
+                        android:text="@string/expand_all"
+                        android:textColor="@color/white"
+                        android:transitionName="transition_womens"/>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="-2dp"
+                    android:src="@drawable/womens_image" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>

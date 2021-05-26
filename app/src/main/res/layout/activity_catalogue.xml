@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".User.Catalogue">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/white_back_btn" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/white_search_btn" />
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mens"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/muli_black"
+                android:gravity="center"
+                android:padding="20dp"/>
+
+            <TextView
+                android:id="@+id/catalogue_suit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/suit"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/muli_light_italic"
+                android:onClick="CallCatalogueSuitScreen"
+                android:gravity="center"
+                android:padding="10dp"
+                android:transitionName="transition_catalogue_suit"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Kurta_paijama"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/muli_light_italic"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/catalogue_pathani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pathani"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:onClick="CallCataloguePathaniScreen"
+                android:fontFamily="@font/muli_light_italic"
+                android:gravity="center"
+                android:padding="10dp"
+                android:transitionName="transition_catalogue_pathani"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/casuals"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:fontFamily="@font/muli_light_italic"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/formals"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:fontFamily="@font/muli_light_italic"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/womens"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/muli_black"
+                android:gravity="center"
+                android:padding="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/suit"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/muli_light_italic"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Kurta_paijama"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/muli_light_italic"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pathani"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/muli_light_italic"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/casuals"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:fontFamily="@font/muli_light_italic"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/formals"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:fontFamily="@font/muli_light_italic"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

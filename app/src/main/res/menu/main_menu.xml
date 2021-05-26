@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/menu_dashboard_icon"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@drawable/menu_calender_icon"
+            android:title="@string/calender" />
+        <item
+            android:id="@+id/nav_add_order"
+            android:icon="@drawable/menu_add_order"
+            android:title="@string/add_order" />
+        <item
+            android:id="@+id/nav_view_edit_order"
+            android:icon="@drawable/menu_add_order"
+            android:title="@string/view_edit_order" />
+        <item
+            android:id="@+id/nav_add_customer"
+            android:icon="@drawable/menu_add_customer"
+            android:title="@string/add_customer" />
+        <item
+            android:id="@+id/nav_view_edit_customer"
+            android:icon="@drawable/menu_view_edit_customer"
+            android:title="@string/View_edit_customer" />
+
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/menu_profile"
+                    android:title="@string/profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/menu_logout"
+                    android:title="@string/logout" />
+
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Management">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_staff_management"
+                    android:icon="@drawable/menu_icon"
+                    android:title="@string/nav_staff_management" />
+                <item
+                    android:id="@+id/nav_income_management"
+                    android:icon="@drawable/menu_icon"
+                    android:title="@string/nav_income_management" />
+                <item
+                    android:id="@+id/nav_expense_management"
+                    android:icon="@drawable/menu_icon"
+                    android:title="@string/nav_expense_management" />
+
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/management_settings"
+                    android:icon="@drawable/menu_management_settings"
+                    android:title="@string/nav_management_settings" />
+                <item
+                    android:id="@+id/general_settings"
+                    android:icon="@drawable/menu_general_settings"
+                    android:title="@string/nav_general_settings" />
+
+
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

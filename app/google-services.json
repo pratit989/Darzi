@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "322446789203",
+    "project_id": "darzi-e1d2c",
+    "storage_bucket": "darzi-e1d2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322446789203:android:ba0af35417e6660d8314a6",
+        "android_client_info": {
+          "package_name": "com.infinityandriod.darzi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322446789203-iq5rgml5gcad3mruj8abk5h8muqbn0k5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.infinityandriod.darzi",
+            "certificate_hash": "d39b348fe8a9d272e4853324e12a5f2bd473deda"
+          }
+        },
+        {
+          "client_id": "322446789203-m4m3kc204j01tpjnlkvtn515u5jfjeh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh_hzydfTkeIYnVPtX_XUCunpaXLGcsl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322446789203-m4m3kc204j01tpjnlkvtn515u5jfjeh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
