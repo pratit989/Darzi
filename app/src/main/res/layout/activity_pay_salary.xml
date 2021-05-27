@@ -26,14 +26,6 @@
                 android:src="@drawable/general_back_icon"
                 android:contentDescription="@string/back_button" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true"
-                android:padding="15dp"
-                android:src="@drawable/general_search_icon"
-                android:contentDescription="@string/search_button" />
         </RelativeLayout>
 
         <LinearLayout
